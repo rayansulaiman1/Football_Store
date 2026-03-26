@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚽ Football T-shirt Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="store-card">
+
+    <div class="store-header">
+        <h1>⚽ FOOTBALL KIT SHOP <span>T-shirts</span></h1>
+        <div class="badge">🏆 official store</div>
+    </div>
+
+    <div class="store-layout">
+
+        <!-- Categories -->
+        <div class="category-panel">
+            <h2>📋 Categories</h2>
+            <div id="categoryContainer" class="category-list"></div>
+        </div>
+
+        <!-- Products -->
+        <div class="product-section">
+            <h2 id="activeCategoryTitle">Category</h2>
+            <div id="productGrid" class="product-grid"></div>
+        </div>
+
+    </div>
+
+    <!-- Cart + Total -->
+    <div class="checkout-panel">
+
+        <!-- ✅ Cart Summary -->
+        <div id="cartSummary" class="cart-summary"></div>
+
+        <div class="total-label">
+            ⚡ TOTAL:
+            <span id="totalPriceDisplay">€0</span>
+        </div>
+
+        <button id="resetQuantitiesBtn" class="reset-btn">
+            Reset
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
